@@ -60,6 +60,7 @@ input::-webkit-slider-thumb{
     border-radius: 50%;
     background-color:rgb(78, 32, 45);
     border: 3px solid rgba(213, 138, 138, 0.974);
+    cursor: pointer;
 }
 h1{
     color:rgb(79, 15, 15);
@@ -83,6 +84,7 @@ p{
     border-radius:50%;
     padding:10px;
     color:rgb(251, 242, 232);
+    cursor: pointer;
 }
 .controls .ctrlBtn:nth-Child(2) {
     transform: scale(1.5);

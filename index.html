@@ -19,14 +19,16 @@
                 </div>
             </nav>
             <img src="media/singer.jpg" alt="sidhu">
-            <audio controls>
+            <audio id="song">
                 <source src="media/song.mp3"></source>
             </audio>
-            <input type="range" value="0">
+            <input type="range" value="0" id="progress">
+            <h1>Trend</h1>
+            <p>Sidhu Moose Wala</p>
             <div class="controls">
-                <div class="ctrlBtn"><i class="fa-solid fa-forward"></i></div>
-                <div class="ctrlBtn"><i class="fa-solid fa-play"></i></div>
                 <div class="ctrlBtn"><i class="fa-solid fa-backward"></i></div>
+                <div class="ctrlBtn" onclick="playPause()"><i class="fa-solid fa-play play-pause"></i></div>
+                <div class="ctrlBtn"><i class="fa-solid fa-forward"></i></div>
             </div>
         </div>
     </div>
